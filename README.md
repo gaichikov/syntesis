@@ -8,9 +8,9 @@ Test task for Syntesis company.
 
 Для запуска необходимо перейти в папку parse_cruises и запустить краулер.
 
-# cd parse_cruises
+cd parse_cruises
+scrapy crawl cruises -o cruises.json
 
-# scrapy crawl cruises -o cruises.json
 
 Результат будет выгружен в файл в формате json.
 
