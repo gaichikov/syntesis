@@ -13,7 +13,7 @@ class CruisesSpider(scrapy.Spider):
 
     def parse(self, response):
         ''' Parsing links from start_urls list '''
-        all_urls = response.css('.travel-box-container .yearContainer a::attr(href)').extract()
+        all_urls = response.css('.travel-box-container .showYear2019 a::attr(href)').extract()
         urls = []
         # Push items if not present in urls
         [urls.append(item) for item in all_urls if item not in urls]
@@ -23,6 +23,7 @@ class CruisesSpider(scrapy.Spider):
 
     def parse_links(self, response):
         ''' Parsing links from parse method '''
+        print('Current user agent %s ' % response.request.headers['User-Agent'])
         dates = {}
         # iterating through available dates and ships.
         for sel in response.css('.accordeon-panel-default'):

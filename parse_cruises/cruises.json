@@ -1,0 +1,6 @@
+[
+{"name": "New Year's Eve Cruise on the Danube", "days": 7, "itinerary": ["Passau", "Vienna", "Budapest", "Budapest", "Bratislava", "Emmersdorf", "Passau"], "dates": {"2019-12-29": {"price": 1079.0, "ship": "MS Amadeus Star"}}},
+{"name": "Christmas Cruise on the Danube", "days": 7, "itinerary": ["Passau", "Passau ", "Emmersdorf ", "D\u00fcrnstein ", "Vienna ", "Linz", "Passau"], "dates": {"2019-12-22": {"price": 939.0, "ship": "MS Amadeus Star"}}},
+{"name": "Magic of Advent on the Danube", "days": 7, "itinerary": ["Vienna", "Vienna", "Melk / Emmersdorf", "Passau", "Regensburg", "Roth ", "Nuremberg"], "dates": {"2019-12-10": {"price": 869.0, "ship": "MS Amadeus Star"}}},
+{"name": "Christmas Cruise on the Rhine", "days": 7, "itinerary": ["Cologne", "Koblenz", "Speyer", "Strasbourg", "Mainz", "Cologne", "Cologne"], "dates": {"2019-12-22": {"price": 959.0, "ship": "MS Amadeus Silver III"}}}
+]
